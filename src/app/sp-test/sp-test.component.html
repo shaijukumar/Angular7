@@ -1,4 +1,19 @@
 <p>
-  sp-test works!
-  {{data.d}}
+  sp-test works! 2
+  <br>myItems:  {{TestListItems[0].Title}}
 </p>
+
+<table border="1">
+<thead>
+  <th>Question</th>
+  <th>Ans1</th>
+  <th>Ans2</th>
+</thead>
+<tbody>
+<tr *ngFor="let quest of TestListItems">
+  <td>{{quest.Title}}</td>
+  <td>{{quest.OData__x0041_ns1}}</td>
+  <td>{{quest.OData__x0041_ns2}}</td>
+</tr>
+</tbody>
+</table>

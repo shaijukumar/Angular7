@@ -6,6 +6,12 @@ git commit -m "first commit"
 git remote add origin https://github.com/shaijukumar/Angular7.git
 git push -u origin master
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/shaijukumar/Angular7.git
-git push -u origin master
+Git add . 
+git commit -m "Change4"
+git push origin master
+
+
+npm i @microsoft/sp-http
+npm i @microsoft/sp-webpart-base
+
+npm install typescript@latest
